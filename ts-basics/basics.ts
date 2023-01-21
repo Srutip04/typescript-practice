@@ -36,3 +36,8 @@ let people: {
 //Type inference
 //dont have to specify the type
 let course = "React";
+
+//union types
+//specify multiple types
+
+let c: string | boolean ;
