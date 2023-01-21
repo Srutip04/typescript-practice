@@ -18,20 +18,20 @@ isIns =true;
 let hobbies: string[];
 hobbies = ['sports','cooking',"basketball"];
 
-let person: {
+//type alias
+type Person = {
     name: string;
     age: number;
 };
+
+let person: Person;
 
 person = {
     name: 'max',
     age: 34
 }
 
-let people: {
-    name: string;
-    age: number;
-}[];
+let people: Person[];
 
 //Type inference
 //dont have to specify the type
