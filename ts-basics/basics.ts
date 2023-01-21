@@ -32,3 +32,7 @@ let people: {
     name: string;
     age: number;
 }[];
+
+//Type inference
+//dont have to specify the type
+let course = "React";
